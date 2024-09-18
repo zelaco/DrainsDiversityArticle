@@ -8,18 +8,18 @@ This repository contains R scripts used in the article: Yearlong Analysis of Bac
 - [Description](#description)
 - [Requirements](#requirements)
 - [Scripts Overview](#scripts-overview)
-  - [1. AlfaDiversity](#alfadiversity)
-  - [2. BetaDiversity](#betadiversity)
-  - [3. GenusRelativeAbundance](#genusrelativeabundance)
-  - [4. Heatmap](#heatmap)
-  - [5. ASTResult](#astresult)
+  - [AlfaDiversity](#alfadiversity)
+  - [BetaDiversity](#betadiversity)
+  - [GenusRelativeAbundance](#genusrelativeabundance)
+  - [Heatmap](#heatmap)
+  - [ASTResult](#astresult)
 - [How to Run the Scripts](#how-to-run-the-scripts)
 - [Customizing the Scripts](#customizing-the-scripts)
-  - [1. Modifying the Dataset](#modifying-the-dataset)
-  - [2. Modifying the File Paths](#modifying-the-file-paths)
-  - [3. Adjusting the Analysis](#adjusting-the-analysis)
-  - [4. Data Structure Requirements](#data-structure-requirements)
-  - [5. Testing](#testing)
+  - [Modifying the Dataset](#modifying-the-dataset)
+  - [Modifying the File Paths](#modifying-the-file-paths)
+  - [Adjusting the Analysis](#adjusting-the-analysis)
+  - [Data Structure Requirements](#data-structure-requirements)
+  - [Testing](#testing)
 - [Contact](#contact)
 
 ---
@@ -196,6 +196,6 @@ It is recommended to first test the script with the provided sample datasets to 
 
 If you have any questions or need further information, feel free to reach out:
 
-- Email: [yourname@email.com]
+- Email: [j.serpa@uib.es]
 - GitHub: [github.com/zelaco]
 
