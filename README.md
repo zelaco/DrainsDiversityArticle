@@ -53,7 +53,7 @@ install.packages(c("ggplot2", "readxl", "tidyverse", "vegan", "patchwork", "RCol
 
 ## **Scripts Overview**
 
-### 1. AlfaDiversity
+### AlfaDiversity
 **Description**: This script generates boxplots for different alpha diversity indices (Shannon, Simpson, Richness, and Chao-1) across different Wards. It also performs ANOVA to assess statistical differences between Wards and Sampling points.
 
 - **Outputs**:
@@ -66,7 +66,7 @@ install.packages(c("ggplot2", "readxl", "tidyverse", "vegan", "patchwork", "RCol
 
 ---
 
-### 2. BetaDiversity
+### BetaDiversity
 **Description**: This script calculates the Bray-Curtis dissimilarity matrix, performs Principal Coordinates Analysis (PCoA), and visualizes beta diversity across Wards and Sampling points. It also runs PERMANOVA to assess the significance of group differences.
 
 - **Outputs**:
@@ -79,7 +79,7 @@ install.packages(c("ggplot2", "readxl", "tidyverse", "vegan", "patchwork", "RCol
 
 ---
 
-### 3. GenusRelativeAbundance
+### GenusRelativeAbundance
 **Description**: This script plots the relative abundance of genera across different Sampling points and Wards. The genera are displayed as stacked bar plots, and the relative abundance is calculated for each group.
 
 - **Outputs**:
@@ -91,7 +91,7 @@ install.packages(c("ggplot2", "readxl", "tidyverse", "vegan", "patchwork", "RCol
 
 ---
 
-### 4. Heatmap
+### Heatmap
 **Description**: This script generates a heatmap representing species abundance across different samples. A gradient color scale is used to represent the abundance levels, and missing or zero values are shown in grey.
 
 - **Outputs**:
@@ -103,7 +103,7 @@ install.packages(c("ggplot2", "readxl", "tidyverse", "vegan", "patchwork", "RCol
 
 ---
 
-### 5. ASTResult
+### ASTResult
 **Description**: This script visualizes antibiotic resistance test (AST) results, displaying stacked bar plots for each species. The plots show the number of isolates classified as susceptible (S), intermediate (I), or resistant (R) to each antibiotic.
 
 - **Outputs**:
@@ -145,7 +145,7 @@ install.packages(c("ggplot2", "readxl", "tidyverse", "vegan", "patchwork", "RCol
 
 If you want to run the scripts with your own data, or modify them to suit your analysis, follow the instructions below:
 
-### 1. Modifying the Dataset
+### Modifying the Dataset
 Each script relies on specific datasets provided in Excel format. You can replace the default datasets with your own, but the structure of your data should be similar to the example datasets provided.
 
 - **AlfaDiversity.R**: Requires a dataset structured with columns for Wards and various alpha diversity indices (e.g., `Shannon_H`, `Simpson`, `Taxa_S`, `Chao1`).
@@ -154,7 +154,7 @@ Each script relies on specific datasets provided in Excel format. You can replac
 - **Heatmap.R**: Requires a species abundance dataset with columns for samples and rows for species.
 - **ASTResult.R**: Requires a dataset structured with columns for species, antibiotics, and resistance results (`S`, `I`, `R`).
 
-### 2. Modifying the File Paths
+### Modifying the File Paths
 
 By default, the scripts read from specific file paths (e.g., `"Data/DiversityIndexes.xlsx"`). If you are using different datasets, update the file paths in the scripts:
 
@@ -170,7 +170,7 @@ to the path of your own dataset:
 divInd <- read_excel("your/custom/path/YourData.xlsx")
 ```
 
-### 3. Adjusting the Analysis
+### Adjusting the Analysis
 
 - **ANOVA and PERMANOVA**: If your dataset has different groupings (e.g., different Wards or Sampling points), make sure the grouping variables in the scripts match your dataset's column names.
 
@@ -178,7 +178,7 @@ divInd <- read_excel("your/custom/path/YourData.xlsx")
 
 ---
 
-### 4. Data Structure Requirements
+### Data Structure Requirements
 
 Ensure that your dataset follows these guidelines:
 
@@ -186,7 +186,7 @@ Ensure that your dataset follows these guidelines:
 
 - **Column Names**: The scripts rely on specific column names (e.g., `Shannon_H`, `Simpson`, `Species`, `Antibiotic`, etc.). Ensure that your custom dataset has columns with the same names or modify the script to match your column names.
 
-### 5. Testing
+### Testing
 
 It is recommended to first test the script with the provided sample datasets to ensure the script works as expected. Then, replace the datasets with your own, making sure the data format remains consistent.
 
