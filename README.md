@@ -61,7 +61,7 @@ install.packages(c("ggplot2", "readxl", "tidyverse", "vegan", "patchwork", "RCol
   - ANOVA results for Shannon diversity printed to the console.
 
 <p align="center">
-  <img src="output/alpha_diversity_plots.png" alt="Alpha Diversity Box Plots" width="500"/>
+  <img src="output/Fig1_alpha_diversity.png" alt="Alpha Diversity Box Plots" width="500"/>
 </p>
 
 ---
@@ -74,7 +74,7 @@ install.packages(c("ggplot2", "readxl", "tidyverse", "vegan", "patchwork", "RCol
   - PERMANOVA results printed to the console.
 
 <p align="center">
-  <img src="output/pcoa_plot.png" alt="Beta Diversity PCoA" width="500"/>
+  <img src="output/Fig2_pcoa_plot.png" alt="Beta Diversity PCoA" width="500"/>
 </p>
 
 ---
@@ -86,7 +86,7 @@ install.packages(c("ggplot2", "readxl", "tidyverse", "vegan", "patchwork", "RCol
   - Genera relative abundance plot: `genera_relative_abundance.png`, `.tiff`, `.svg`
 
 <p align="center">
-  <img src="output/genera_relative_abundance.png" alt="Relative Abundance" width="500"/>
+  <img src="output/Fig3_genera_relative_abundance.png" alt="Relative Abundance" width="500"/>
 </p>
 
 ---
@@ -98,7 +98,7 @@ install.packages(c("ggplot2", "readxl", "tidyverse", "vegan", "patchwork", "RCol
   - Heatmap of species abundance: `species_abundance_heatmap.png`, `.tiff`, `.svg`
 
 <p align="center">
-  <img src="output/species_abundance_heatmap.png" alt="Species Heatmap" width="500"/>
+  <img src="output/Fig4_heatmap.png" alt="Species Heatmap" width="500"/>
 </p>
 
 ---
@@ -110,7 +110,7 @@ install.packages(c("ggplot2", "readxl", "tidyverse", "vegan", "patchwork", "RCol
   - Combined bar plots of AST results: `antibiotic_resistance_plots.png`, `.tiff`, `.svg`
 
 <p align="center">
-  <img src="output/antibiotic_resistance_plots.png" alt="AST Results" width="500"/>
+  <img src="output/Fig5_AST.png.png" alt="AST Results" width="500"/>
 </p>
 
 ---
