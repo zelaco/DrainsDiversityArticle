@@ -110,7 +110,7 @@ install.packages(c("ggplot2", "readxl", "tidyverse", "vegan", "patchwork", "RCol
   - Combined bar plots of AST results: `antibiotic_resistance_plots.png`, `.tiff`, `.svg`
 
 <p align="center">
-  <img src="output/Fig5_AST.png.png" alt="AST Results" width="500"/>
+  <img src="output/Fig5_AST.png" alt="AST Results" width="500"/>
 </p>
 
 ---
