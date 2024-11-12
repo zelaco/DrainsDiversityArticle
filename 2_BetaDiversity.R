@@ -49,9 +49,9 @@ pcoa_plot <- ggplot(pcoa_df, aes(x = V1, y = V2)) +
   scale_colour_manual(values = ward_colors)
 
 # Save PCoA plot to file
-ggsave("output/pcoa_plot.png", pcoa_plot, width = 8, height = 6, dpi = 300)
-ggsave("output/pcoa_plot.tiff", pcoa_plot, width = 8, height = 6, dpi = 300)
-ggsave("output/pcoa_plot.svg", pcoa_plot, width = 8, height = 6)
+ggsave("output/Fig2_pcoa_plot.png", pcoa_plot, width = 8, height = 6, dpi = 300)
+ggsave("output/Fig2_pcoa_plot.tiff", pcoa_plot, width = 8, height = 6, dpi = 300)
+ggsave("output/Fig2_pcoa_plot.svg", pcoa_plot, width = 8, height = 6)
 
 # Display PCoA plot
 print(pcoa_plot)

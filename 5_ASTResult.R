@@ -14,6 +14,10 @@ df_long <- dataATB %>%
                values_to = "Result") %>%
   na.omit()  # Remove rows with NA values
 
+# Set the desired order for Resistance levels
+df_long <- df_long %>%
+  mutate(Resistance = factor(Resistance, levels = c("R", "I", "S")))
+
 # Calculate total abundance for each combination of Species and Antibiotic
 df_long <- df_long %>%
   group_by(Species, Antibiotic) %>%
@@ -37,13 +41,13 @@ create_species_plot <- function(species_name, data) {
 # Create a list of plots for each species
 species_plots <- lapply(species_list, create_species_plot, data = df_long)
 
-# Combine plots vertically using patchwork
+# Combine plots
 combined_plot <- wrap_plots(species_plots, ncol = 1)
 
 # Display the combined plot
 print(combined_plot)
 
-# Save the combined plot
-ggsave("output/antibiotic_resistance_plots.png", combined_plot, width = 8, height = 12, dpi = 300)
-ggsave("output/antibiotic_resistance_plots.tiff", combined_plot, width = 8, height = 12, dpi = 300)
-ggsave("output/antibiotic_resistance_plots.svg", combined_plot, width = 8, height = 12)
+# Save the combined plot with adjusted dimensions
+ggsave("output/Fig5_AST.png", combined_plot, width = 8, height = 10, dpi = 300)
+ggsave("output/Fig5_AST.tiff", combined_plot, width = 8, height = 10, dpi = 300)
+ggsave("output/Fig5_AST.svg", combined_plot, width = 8, height = 12)

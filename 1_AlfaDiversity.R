@@ -33,9 +33,9 @@ P4 <- create_boxplot(data_alphadiv, 'Chao1', 'Chao-1', 'D')
 combined_plots <- (P1 | P2) / (P3 | P4)
 
 # Save the combined plots as a PNG file 
-ggsave("output/alpha_diversity_plots.png", combined_plots, width = 10, height = 8, dpi = 300)
-ggsave("output/alpha_diversity_plots.tiff", combined_plots, width = 10, height = 8, dpi = 300)
-ggsave("output/alpha_diversity_plots.svg", combined_plots, width = 10, height = 8)
+ggsave("output/Fig1_alpha_diversity.png", combined_plots, width = 10, height = 8, dpi = 300)
+ggsave("output/Fig1_alpha_diversity.tiff", combined_plots, width = 10, height = 8, dpi = 300)
+ggsave("output/Fig1_alpha_diversity.svg", combined_plots, width = 10, height = 8)
 
 # Print combined plots
 print(combined_plots)

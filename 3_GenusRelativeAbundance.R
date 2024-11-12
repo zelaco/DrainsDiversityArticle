@@ -42,7 +42,7 @@ genera_plot <- ggplot(dfG_long, aes(x = Sampling, y = RelativeAbundance, fill = 
 print(genera_plot)
 
 # Save the plot as a PNG file 
-ggsave("output/genera_relative_abundance.png", genera_plot, width = 10, height = 8, bg = "white", dpi = 300)
-ggsave("output/genera_relative_abundance.tiff", genera_plot, width = 10, height = 8, bg = "white", dpi = 300)
-ggsave("output/genera_relative_abundance.svg", genera_plot, width = 10, height = 8, bg = "white")
+ggsave("output/Fig3_genera_relative_abundance.png", genera_plot, width = 10, height = 8, bg = "white", dpi = 300)
+ggsave("output/Fig3_genera_relative_abundance.tiff", genera_plot, width = 10, height = 8, bg = "white", dpi = 300)
+ggsave("output/Fig3_genera_relative_abundance.svg", genera_plot, width = 10, height = 8, bg = "white")
 
