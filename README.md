@@ -1,6 +1,6 @@
 # **Yearlong Analysis of Bacterial Diversity in Hospital Sink Drains: Culturomics, Antibiotic resistance and Implications for Infection Control**
 
-This repository contains R scripts used in the article: Yearlong Analysis of Bacterial Diversity in Hospital Sink Drains: Culturomics, Antibiotic resistance and Implications for Infection Control, currently accepted for publication
+This repository contains R scripts used in the article: Yearlong Analysis of Bacterial Diversity in Hospital Sink Drains: Culturomics, Antibiotic resistance and Implications for Infection Control, doi: 10.3389/fmicb.2024.1501170. https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2024.1501170/abstract
 
 ---
 
